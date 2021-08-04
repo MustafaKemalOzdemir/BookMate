@@ -48,6 +48,12 @@ dependencies {
     implementation(Libraries.constraintLayout)
     implementation(Libraries.hiltAndroid)
     kapt(Libraries.hiltCompiler)
+    implementation(Libraries.navigationFragment)
+    implementation(Libraries.navigationUi)
+    implementation(project(Modules.CORE))
+    implementation(project(Modules.NAVIGATION))
+    implementation(project(Modules.Features.SPLASH))
+
 
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testExtJunit)

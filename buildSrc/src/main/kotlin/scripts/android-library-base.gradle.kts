@@ -1,5 +1,6 @@
 package scripts
 
+import gradle.kotlin.dsl.accessors._bf89de58164f58e5e528dcefb2afe49f.implementation
 import org.gradle.api.JavaVersion
 import org.gradle.kotlin.dsl.dependencies
 import org.gradle.kotlin.dsl.withType
@@ -7,6 +8,8 @@ import org.gradle.kotlin.dsl.withType
 plugins {
     id("com.android.library")
     id("kotlin-android")
+    id("kotlin-kapt")
+
 }
 
 android {
@@ -41,6 +44,10 @@ dependencies {
     implementation(Libraries.appCompat)
     implementation(Libraries.material)
     implementation(Libraries.constraintLayout)
+    implementation(Libraries.navigationFragment)
+    implementation(Libraries.navigationUi)
+    implementation(Libraries.hiltAndroid)
+    kapt(Libraries.hiltCompiler)
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testExtJunit)
     androidTestImplementation(TestLibraries.espressoCore)
