@@ -1,6 +1,5 @@
 package scripts
 
-import gradle.kotlin.dsl.accessors._bf89de58164f58e5e528dcefb2afe49f.implementation
 import org.gradle.api.JavaVersion
 import org.gradle.kotlin.dsl.dependencies
 import org.gradle.kotlin.dsl.withType
