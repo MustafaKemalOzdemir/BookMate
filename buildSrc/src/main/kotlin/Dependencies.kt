@@ -48,6 +48,7 @@ object Libraries {
         const val hilt = "2.35"
         const val kotlinReflect = "1.4"
         const val navigation = "2.3.5"
+        const val timber = "4.7.1"
     }
     const val kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib:${Kotlin.standardLibrary}"
     const val material = "com.google.android.material:material:${Versions.material}"
@@ -59,6 +60,7 @@ object Libraries {
     const val kotlinReflect = "org.jetbrains.kotlin:kotlin-reflect:${Kotlin.standardLibrary}"
     const val navigationFragment = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
     const val navigationUi = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
+    const val timber = "com.jakewharton.timber:timber:${Versions.timber}"
 }
 
 object TestLibraries {

@@ -46,6 +46,7 @@ dependencies {
     implementation(Libraries.navigationFragment)
     implementation(Libraries.navigationUi)
     implementation(Libraries.hiltAndroid)
+    implementation(Libraries.timber)
     kapt(Libraries.hiltCompiler)
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testExtJunit)
